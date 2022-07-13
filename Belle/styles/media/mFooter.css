@@ -1,0 +1,39 @@
+@media only screen and (max-width:1024px) {
+	.anket {
+		font-size: 30px;
+	}
+
+	footer form {
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.anket {
+		font-size: 25px;
+	}
+
+	footer form {
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.anket {
+		font-size: 20px;
+	}
+
+	footer form {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.anket {
+		font-size: 18px;
+	}
+
+	footer form {
+		width: 70%;
+	}
+}

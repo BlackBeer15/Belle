@@ -1,0 +1,221 @@
+@media only screen and (max-width:1280px) {
+	.card-container {
+		width: 380px;
+		height: 420px;
+	}
+
+	.card {
+		width: 288px;
+	}
+
+	.ph-card {
+		height: 170px;
+	}
+
+	.ph-card1 {
+		height: 170px;
+	}
+
+	.ph-card2 {
+		height: 170px;
+	}
+
+	.main-card {
+		height: 250px;
+	}
+
+	.main-card1 {
+		height: 250px;
+	}
+
+	.main-card2 {
+		height: 250px;
+	}
+
+	.m-head {
+		font-size: 28px;
+		width: 250px;
+	}
+
+	.btn-card {
+		width: 150px;
+		font-size: 24px;
+		margin-left: 70px;
+	}
+
+	.text-card {
+		font-size: 17px;
+	}
+
+	.text-card1 {
+		font-size: 17px;
+	}
+
+	.price {
+		font-size: 20px;
+		height: 50px;
+	}
+
+	.price1 {
+		font-size: 20px;
+		height: 50px;
+	}
+
+	.price2 {
+		font-size: 20px;
+		height: 50px;
+	}
+}
+
+@media only screen and (max-width:980px) {
+	.services {
+		height: 1100px;
+	}
+
+	.list-services {
+		flex-wrap: wrap;
+		height: 1000px;
+	}
+}
+
+@media only screen and (max-width:759px) {
+	.services {
+		height: 1800px;
+	}
+
+	.list-services {
+		height: 1700px;
+	}
+
+	.card-container {
+		width: 427px;
+		height: 472px;
+	}
+
+	.card {
+		width: 324px;
+	}
+
+	.ph-card {
+		height: 200px;
+	}
+
+	.ph-card1 {
+		height: 200px;
+	}
+
+	.ph-card2 {
+		height: 200px;
+	}
+
+	.main-card {
+		height: 272px;
+	}
+
+	.main-card1 {
+		height: 272px;
+	}
+
+	.main-card2 {
+		height: 272px;
+	}
+
+	.m-head {
+		font-size: 30px;
+	}
+
+	.text-card {
+		font-size: 22px;
+	}
+
+	.text-card1 {
+		font-size: 22px;
+	}
+
+	.btn-card {
+		margin-left: 90px;
+	}
+
+	.price {
+		font-size: 22px;
+		height: 50px;
+	}
+
+	.price1 {
+		font-size: 22px;
+		height: 50px;
+	}
+
+	.price2 {
+		font-size: 22px;
+		height: 50px;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.card-container {
+		width: 380px;
+		height: 420px;
+	}
+
+	.card {
+		width: 288px;
+	}
+
+	.ph-card {
+		height: 170px;
+	}
+
+	.ph-card1 {
+		height: 170px;
+	}
+
+	.ph-card2 {
+		height: 170px;
+	}
+
+	.main-card {
+		height: 250px;
+	}
+
+	.main-card1 {
+		height: 250px;
+	}
+
+	.main-card2 {
+		height: 250px;
+	}
+
+	.m-head {
+		font-size: 28px;
+	}
+
+	.btn-card {
+		width: 150px;
+		font-size: 24px;
+		margin-left: 70px;
+	}
+
+	.text-card {
+		font-size: 17px;
+	}
+
+	.text-card1 {
+		font-size: 17px;
+	}
+
+	.price {
+		font-size: 20px;
+		height: 50px;
+	}
+
+	.price1 {
+		font-size: 20px;
+		height: 50px;
+	}
+
+	.price2 {
+		font-size: 20px;
+		height: 50px;
+	}
+}

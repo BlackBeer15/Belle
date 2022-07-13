@@ -1,0 +1,128 @@
+main {
+	position: relative;
+	width: 100%;
+}
+
+.aboutus {
+	width: 100%;
+	background-image: url(../images/bg/bg-aboutus.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.head-aboutus {
+	display: inline-block;
+	width: 200px;
+	height: 101px;
+	font-size: 50px;
+	background-image: url(../images/bg/bg-abouthead.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	line-height: 101px;
+}
+
+.text-about {
+	margin: 0 auto;
+	width: 70%;
+	font-size: 32px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+.line {
+  	margin: 0 auto;
+  	width: 80%;
+  	padding-top: 25px;
+  	padding-bottom: 25px;
+}
+
+.line div {
+	transform: rotate(45deg);
+  	margin-top: -13px;
+  	margin-left: 50%;
+  	background-color: #656565;
+  	width: 9px;
+  	height: 9px;
+}
+
+.line hr {
+  	border: 1px solid #656565;
+  	border-left: 100px solid transparent;
+  	border-right: 100px solid transparent;
+}
+
+.photo-container {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	user-select: none;
+}
+
+.myPhoto {
+	display: none;
+	margin: 0 auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+}
+
+.myPhoto img {
+	width: 150px;
+	height: 200px;
+	border: 2px solid #d7e3e5;
+	box-shadow: 2px 2px 5px #000;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.myPhoto img:hover {
+	box-shadow: 0px 0px 25px #a1defa;
+}
+
+.prev, .next {
+  	cursor: pointer;
+  	position: absolute;
+  	top: 50%;
+  	width: auto;
+  	padding: 10px;
+  	margin-top: -22px;
+  	color: #000;
+  	font-weight: bold;
+  	font-size: 22px;
+  	transition: 0.6s ease;
+}
+
+.prev {
+	left: 0;
+}
+
+.next {
+  	right: 0;
+}
+
+.prev:hover, .next:hover {
+	font-size: 35px;
+	padding: 0;	
+}
+
+.fade {
+  	-webkit-animation-name: fade;
+  	-webkit-animation-duration: 1.5s;
+  	animation-name: fade;
+  	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+}
+
+@keyframes fade {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+}

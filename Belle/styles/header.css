@@ -1,0 +1,93 @@
+header {
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background-image: url(../images/bg/bg-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 10px #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	user-select: none;
+}
+
+header a img {
+	margin-left: 15px;
+}
+
+nav	{
+	width: 300px;
+	height: 90px;
+	margin-right: 100px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav p {
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 30px;
+	cursor: pointer;
+	transition: 0.6s;
+}
+
+nav p:hover {
+	font-size: 32px;
+}
+
+nav hr{
+	margin-top: 0;
+	margin-bottom: 5px;
+	border: 1px solid #000;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+}
+
+.contact {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact a {
+	text-decoration: none;
+}
+
+.contact i {
+	transition: 0.6s;
+}
+
+.contact i:hover {
+	transform: rotate(-20deg);
+	font-size: 38px;
+}
+
+.contact span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 45px;
+	font-size: 30px;
+	color: #000;
+	background-position: center;
+	background-size: 100%;	
+}
+
+.viber {
+	background-image: url(../images/bg/bg-contact1.png);
+}
+
+.whatsapp {
+	background-image: url(../images/bg/bg-contact2.png);
+}
+
+.vk {
+	background-image: url(../images/bg/bg-contact3.png);
+}
+
+.inst {
+	background-image: url(../images/bg/bg-contact4.png);
+}

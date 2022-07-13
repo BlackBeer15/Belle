@@ -1,0 +1,15 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*General settings*/
+html, body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-color: #fefefe;
+}
+
+html {
+	font-family: 'Poiret One', cursive;
+}

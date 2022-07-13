@@ -1,0 +1,38 @@
+@media only screen and (max-width:800px) {
+	.alert-service {
+		width: 600px;
+		height: 600px;
+	}
+
+	.alert-notice-service {
+		width: 400px;
+		font-size: 19px;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.alert-service {
+		width: 320px;
+		height: 1200px;
+	}
+
+	.alert-notice-service {
+		width: 200px;
+		font-size: 19px;
+	}
+
+	.alert-head-service {
+		width: 280px;
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.alert-call {
+		width: 320px;
+	}
+
+	.alert-call input {
+		width: 320px;
+		font-size: 25px;
+	}
+}

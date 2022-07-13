@@ -1,0 +1,104 @@
+.anket {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 40px;
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	box-shadow: 0 -1px 10px #cccccc;
+}
+
+footer video {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	animation: opa 29s ease infinite;
+}
+
+@keyframes opa {
+	0% {
+		opacity: 0;
+	}
+
+	5% {
+		opacity: 1;
+	}
+
+	95% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.full-size-container {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, rgba(231,204,178,0.8) 56%, rgba(255,255,255,0.8) 95%);
+}
+
+footer form {
+	position: absolute;
+	z-index: 3;
+	width: 20%;
+	height: 80%;
+	top: 50%;
+	left: 50%;                       
+   	transform: translate(-50%, -50%);
+   	text-align: center;
+}
+
+footer form input {
+	display: block;
+	background: none;
+	width: 100%;
+	outline: none;
+	height: 35px;
+	border: none;
+	border-bottom: 1px solid #000;
+	padding: 0;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Poiret One', cursive;
+}
+
+footer form input:focus {
+	background-color: rgba(255,255,255,0.5);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+footer form input:last-child {
+	width: 170px;
+	border: none;
+	height: 40px;
+	cursor: pointer;
+	transition: 0.5s;
+	background-image: url(../images/bg/bg-footer.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: 0.5s;
+	margin: 0 auto;
+	animation: ugla 3s ease;
+}
+
+footer form input:last-child:hover {
+	transform: rotate(-3deg);
+}

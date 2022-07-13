@@ -1,0 +1,39 @@
+@media only screen and (max-width:1280px) {
+	.myPhoto {
+		flex-wrap: wrap;
+	}
+
+	.myPhoto img {
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (max-width:980px) { 
+	.text-about {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.text-about {
+		font-size: 25px;
+	}
+
+	.aboutus {
+		padding-top: 50px;
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.text-about {
+		font-size: 18px;
+	}
+	
+	.head-aboutus {
+		font-size: 32px;
+	}
+
+	.aboutus {
+		padding-top: 25px;
+	}
+}
